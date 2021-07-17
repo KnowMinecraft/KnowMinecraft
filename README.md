@@ -9,7 +9,7 @@ If you complete 2nd level, It means you are a pro.
 
 Finnaly, the last level, the end. It will prove you know Minecraft. You are not just a pro, you are King!
 
-[Start quiz](https://kmc.js.org/levels/1/1.html)
+[Start quiz](https://knowminecraft.github.io/levels/1/1.html)
 
 ### About Minecraft facts
 Do you know that golems don't take fall damage?
