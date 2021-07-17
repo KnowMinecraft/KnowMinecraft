@@ -62,7 +62,13 @@ if (q == true) {
                                                     if (q == false) {
                                                         wrong()
                                                     } else {
-                                                        done()
+                                                        var q = confirm("Making a furnance requires iron.");
+                                                        if (q == true) {
+                                                            wrong();
+                                                            // 14 questions
+                                                        } else {
+                                                            done();
+                                                        }
                                                     }
                                                 } else {
                                                     wrong()
