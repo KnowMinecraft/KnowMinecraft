@@ -6,8 +6,10 @@ function done() {
     // Show a fact when this page is done
     var random = ~~(Math.random() * facts.length);
     var showfact = prompt("Minecraft fact", facts[random]);
-    if (showfact == true || false) {
+    if (showfact == false) {
         location.href = '2.html';
+    } else {
+       location.href = '2.html'; 
     }
 }
 function quiz() {
