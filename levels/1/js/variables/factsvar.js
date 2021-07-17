@@ -1,0 +1,1 @@
+var facts = ["Mojang created Minecraft. Mojang is now owned by Microsoft.", "Golems don't take fall damage.", "Famous YouTubers, like MrBeast and PewDiePie, their first videos were of Minecraft!"];
