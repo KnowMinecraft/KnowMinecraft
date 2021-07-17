@@ -6,7 +6,7 @@ function done() {
     // Show a fact when this page is done
     var random = ~~(Math.random() * facts.length);
     var showfact = prompt("Minecraft fact", facts[random]);
-    if (showfact == true || showfact == false) {
+    if (showfact == true || false) {
         location.href = '2.html';
     }
 }
