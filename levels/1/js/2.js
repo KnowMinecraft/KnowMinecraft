@@ -56,7 +56,12 @@ if (q == true) {
                                             if (q == true) {
                                                 wrong()
                                             } else {
-                                                done()
+                                                var q = confirm('There are zombie villagers in Minecraft');
+                                                if (q == true) {
+                                                    done()
+                                                } else {
+                                                    wrong()
+                                                }
                                             }
                                         }
                                     }
