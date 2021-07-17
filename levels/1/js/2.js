@@ -58,9 +58,15 @@ if (q == true) {
                                             } else {
                                                 var q = confirm('There are zombie villagers in Minecraft');
                                                 if (q == true) {
-                                                    done()
+                                                    var q = confirm("There isn't any circle in Minecraft");
+                                                    if (q == false) {
+                                                        wrong()
+                                                    } else {
+                                                        done()
+                                                    }
                                                 } else {
                                                     wrong()
+                                                    // 13 questions
                                                 }
                                             }
                                         }
